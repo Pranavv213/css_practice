@@ -1,0 +1,60 @@
+
+.heading{
+    position:fixed ;
+    background-color:#fcd1a6;
+    display:block;
+    width:100%;
+    text-align:center;
+    font-family: 'Ephesis', cursive;
+    font-size:120%;
+    border-radius:10%
+}
+
+
+body{
+    background-image: url("https://jooinn.com/images/wood-background-with-ivy.jpg") ;
+    background-size:contain no-repeat;
+    background-position:right;
+    
+    
+    
+}
+.main{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+}
+@media(max-width:800px){.main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+}
+.main img{
+    flex-grow:1;
+    min-width:30%;
+   padding:0.4%;
+    flex-grow: 1;
+   height:17em;
+    max-width:25rem;
+    border-radius:30%;
+    transition:0.7s;
+}
+@media(max-width:800px){.main img {
+    flex-grow:1;
+    min-width:30%;
+   padding:0.4%;
+   height:10em;
+    max-width:25rem;
+    border-radius:30%;
+    transition:0.7s;
+}
+}
+.main img:hover{
+    transform:translateY(-10px);
+    cursor:pointer;
+   
+}

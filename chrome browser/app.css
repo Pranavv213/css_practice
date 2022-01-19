@@ -1,0 +1,86 @@
+nav{
+    display: flex;
+    /* background-color: antiquewhite; */
+    justify-content: flex-end;
+  
+}
+nav h1{
+    padding-right: 10px;
+}
+nav img{
+    height:50px;
+}
+.Google{
+/* background-color:blue; */
+display: flex;
+justify-content: center;
+
+
+}
+.Google img{
+    height:100px;
+    padding-bottom: 50px;
+    flex-shrink: 1;
+}
+.searchbar{
+    /* background-color:pink; */
+    display: flex;
+    justify-content: center;
+   
+}
+.searchbar input{
+    min-height:50px;
+    width:700px;
+    border-radius:30px;
+}
+.mainy{
+    padding-top:50px;
+    display: flex;
+    /* background-color:black; */
+    flex-direction: column;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+}
+.mainy .main img{
+    height:50px;
+    
+  justify-content:space-evenly;
+    /* border-radius: 5px */
+}
+.mainy .main img:hover{
+    height:50px;
+    
+  justify-content:space-evenly;
+    /* border-radius: 100%; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.main2{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+}
+
+.mainy .main2 img{
+    height:50px;
+  
+  justify-content:space-evenly;
+    /* border-radius: 50% */
+}
+.mainy .main2 img:hover{
+    height:50px;
+    
+  justify-content:space-evenly;
+    /* border-radius: 50%; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body{
+    /* background-color:black; */
+}
